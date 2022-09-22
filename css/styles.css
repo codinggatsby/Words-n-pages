@@ -6,4 +6,19 @@
 
 }
 
-
+.navbar{
+box-shadow: 0ch 3px 9px 3px rgb(74, 44, 22)
+}
+.navbar-brand img{
+width: 30px;
+}
+.navbar-brand span{
+letter-spacing: 2px;
+font-family: var(--lg-font);
+}
+.nav-link:hover{
+    color: sandybrown!important;
+}
+.nav-item{
+    border: bottom 0.5px solid rgba(244,164,96, 1)
+}
