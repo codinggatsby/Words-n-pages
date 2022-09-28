@@ -5,15 +5,19 @@
 --sm-font: 'Roboto', sans-serif;
 
 }
-.btn:not(.nav-btns button){
+
+
+
+.btn1:not(.nav-btns button){
 background-color: #fff;
-color: rbg(85,85,85);
+color: black;
 padding: 10px 28px;
 border-radius: 25px;
 border: 1px solid rgb(85,85,85);
+text-decoration: none;
 }
 
-.btn:not(.nav-btns button):hover{
+.btn1:not(.nav-btns button):hover{
 background-color: var(#4a2c2a);
 color: #fff;
 border-color:var(#4a2c2a);
@@ -36,7 +40,8 @@ font-family: var(--lg-font);
 }
 
 #header{
-background: url(../images/alfons-morales-YLSwjSy7stw-unsplash.jpg)top/cover no-repeat;
+background-size: 100rem 40rem;
+text-align: center;
 
 }
 

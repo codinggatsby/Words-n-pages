@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS Link -->
     <link rel="stylesheet" href="../css/styles.css">
+    <!-- BS CSS -->
     <link rel="stylesheet" href="../index.html/bootstrap-5.2.1-dist/css/bootstrap.min.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
             <a class="navbar-brand d-flex justify-content-between 
@@ -59,6 +62,70 @@
             </div>
         </div>
     </nav>
+    <!-- NavBar -->
+
+    <!-- Form for Sign up -->
+    <main>
+
+        <div class="container m-5">
+            <h1 class="text-center m-5">Sign Up Form</h1>
+            <form class="row g-3 m-3">
+
+                <div class="col-md-4 mb-3">
+                    <label for="Name" class="form-label">Name</label>
+                    <input type="text" name="fName" id="Name" class="form-control" required>
+                </div>
+
+                <div class=" col-md-4 mb-3">  
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" name="email" id="email" class="form-control" required>
+                </div> 
+
+                <div class="col-md-4">
+                    <label for="username" class="form-label">Username</label>
+                    <div class="input-group">
+                      <span class="input-group-text" id="username">@</span>
+                      <input type="text" class="form-control" id="username"  aria-describedby="username" required>
+                    </div>
+                  </div>
+
+                <div class=" col-md-4 mb-3">  
+                    <label for="psswd1" class="form-label">Password</label>
+                    <input type="password" name="psswd1" id="psswd1" class="form-control" equired>
+                </div> 
+
+                <div class=" col-md-4 mb-3">  
+                    <label for="psswd2" class="form-label">Confirm Password</label>
+                    <input type="password" name="psswd2" id="psswd2" class="form-control" >
+                </div> 
+
+                <p>How did you hear about us?</p>
+
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="employee-radio" name="ad-Radio" required>
+                    <label class="form-check-label" for="employee-radio">Ad</label>
+                </div>
+                <div class="form-check">
+                   <input type="radio" class="form-check-input" id="employee-radio" name="ad-Radio" required>
+                  <label class="form-check-label" for="employee-radio">Employee</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="employee-radio" name="ad-Radio" required>
+                   <label class="form-check-label" for="employee-radio">Friends/Family</label>
+                </div>
+                 
+                 <button class="btn btn-dark mt-5" type="submit">Submit</button>
+
+
+            </form> 
+                        
+
+        </div>
+        
+
+    </main>
+
+    <!-- Bootstrap JS -->
     <script src="../scripts/jquery-3.6.1.js"></script>
     <script src="bootstrap-5.2.1-dist/js/bootstrap.min.js"></script> 
 </body>
